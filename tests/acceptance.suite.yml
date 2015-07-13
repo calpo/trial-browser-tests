@@ -6,9 +6,11 @@
 
 class_name: AcceptanceTester
 modules:
-    enabled:
-        - PhpBrowser
-        - AcceptanceHelper
-    config:
-        PhpBrowser:
-            url: 'http://oshiete.goo.ne.jp/'
+   enabled: [WebDriver]
+   config:
+      WebDriver:
+         url: 'http://oshiete.goo.ne.jp/'
+         browser: firefox
+         wait: 10
+         capabilities:
+             unexpectedAlertBehaviour: 'accept'
