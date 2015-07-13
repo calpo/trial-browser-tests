@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "31cb339d6066c1b1dbf56c1f6f6b4293",
+    "hash": "094c147b6fad837c3f39a1a5b64995ab",
     "packages": [
         {
             "name": "alexandresalome/php-selenium",
@@ -647,6 +647,47 @@
                 "scraper"
             ],
             "time": "2014-10-09 15:52:51"
+        },
+        {
+            "name": "facebook/webdriver",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/php-webdriver.git",
+                "reference": "575600dfcfebad49fd0fc59d781b0696462a1f4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/575600dfcfebad49fd0fc59d781b0696462a1f4e",
+                "reference": "575600dfcfebad49fd0fc59d781b0696462a1f4e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.19"
+            },
+            "require-dev": {
+                "phpdocumentor/phpdocumentor": "2.*",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A php client for WebDriver",
+            "homepage": "https://github.com/facebook/php-webdriver",
+            "keywords": [
+                "facebook",
+                "php",
+                "selenium",
+                "webdriver"
+            ],
+            "time": "2015-06-09 17:09:16"
         },
         {
             "name": "guzzle/common",
@@ -1602,7 +1643,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "behat/behat": 0,
-        "behat/mink": 0
+        "behat/mink": 0,
+        "facebook/webdriver": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
