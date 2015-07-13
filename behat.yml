@@ -1,0 +1,17 @@
+default:
+  extensions:
+    Behat\MinkExtension\Extension:
+      default_session: selenium2
+      base_url: 'http://oshiete.goo.ne.jp/'
+      selenium2: ~
+  paths:
+    features:  features
+    bootstrap: features/bootstrap
+
+annotations:
+  paths:
+    features: features/annotations
+
+closures:
+  paths:
+    features: features/closures
